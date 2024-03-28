@@ -17,6 +17,8 @@ import UseMemo from "./components/UseMemo";
 import RefClass from "./ClassComponents/RefClass";
 import UseRef from "./components/UseRef";
 import Controlled from "./components/Controlled";
+import UnControlled from "./components/UnControlled";
+import HOC from "./components/HOC";
 
 function App() {
   const [data, setData] = useState("Radhe");
@@ -31,7 +33,9 @@ function App() {
   // }
   return (
     <div className="App">
-      <Controlled />
+      <HOC />
+      {/* <UnControlled /> */}
+      {/* <Controlled /> */}
       {/* <UseRef /> */}
       {/* <RefClass /> */}
       {/* <UseMemo /> */}
