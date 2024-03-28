@@ -13,6 +13,7 @@ import { Button } from "react-bootstrap";
 import List from "./components/List";
 import NestedList from "./components/NestedList";
 import ChildToParent from "./components/ChildToParent";
+import UseMemo from "./components/UseMemo";
 
 function App() {
   const [data, setData] = useState("Radhe");
@@ -27,7 +28,8 @@ function App() {
   // }
   return (
     <div className="App">
-      <ChildToParent alert = {getInfo}/>
+      <UseMemo />
+      {/* <ChildToParent alert = {getInfo}/> */}
 
       {/* <NestedList /> */}
       {/* <List /> */}
