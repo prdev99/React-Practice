@@ -16,6 +16,7 @@ import ChildToParent from "./components/ChildToParent";
 import UseMemo from "./components/UseMemo";
 import RefClass from "./ClassComponents/RefClass";
 import UseRef from "./components/UseRef";
+import Controlled from "./components/Controlled";
 
 function App() {
   const [data, setData] = useState("Radhe");
@@ -30,7 +31,8 @@ function App() {
   // }
   return (
     <div className="App">
-      <UseRef />
+      <Controlled />
+      {/* <UseRef /> */}
       {/* <RefClass /> */}
       {/* <UseMemo /> */}
       {/* <ChildToParent alert = {getInfo}/> */}
