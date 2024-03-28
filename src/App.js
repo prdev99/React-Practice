@@ -14,6 +14,7 @@ import List from "./components/List";
 import NestedList from "./components/NestedList";
 import ChildToParent from "./components/ChildToParent";
 import UseMemo from "./components/UseMemo";
+import RefClass from "./ClassComponents/RefClass";
 
 function App() {
   const [data, setData] = useState("Radhe");
@@ -28,7 +29,8 @@ function App() {
   // }
   return (
     <div className="App">
-      <UseMemo />
+      <RefClass />
+      {/* <UseMemo /> */}
       {/* <ChildToParent alert = {getInfo}/> */}
 
       {/* <NestedList /> */}
